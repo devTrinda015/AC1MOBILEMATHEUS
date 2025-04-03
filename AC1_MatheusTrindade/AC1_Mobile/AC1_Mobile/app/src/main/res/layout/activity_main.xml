@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="488dp"
+        android:hint="Título do livro" />
+
+    <EditText
+        android:id="@+id/edtAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Autor do Livro" />
+
+    <Spinner
+        android:id="@+id/spinnerCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkLido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Já li este livro"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="Salvar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerLivros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

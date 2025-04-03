@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gerenciador de Livros</string>
+    <string-array name="categorias">
+        <item>Ficção</item>
+        <item>Técnico</item>
+        <item>Autoajuda</item>
+        <item>Biografia</item>
+    </string-array>
+</resources>
